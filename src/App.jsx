@@ -1,6 +1,7 @@
 import "./styles/App.css";
 import ProfileSection from "./components/profileSection";
-import LinkSection from "./components/profileSection";
+import LinkSection from "./components/linkSection";
+
 function App() {
   return (
     <div className="App">
