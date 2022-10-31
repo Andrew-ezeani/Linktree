@@ -1,7 +1,18 @@
 import "../styles/main.css";
-import image from "../assets/Device=Web, State=Focused.png";
+import profileImg from "../assets/Device=Web, State=Focused.png";
+import shareIcon from "../assets/Icon.png";
+
 function ProfileSection() {
-  return <div className="App__profile-section"></div>;
+  return (
+    <div className="profile__section">
+      <img src={profileImg} id="profile__img" />
+      <p id="twitter">Alwaysgreen18</p>
+      <p id="slack">Andrew Ezeani</p>
+      <div className="profile__share">
+        <img src={shareIcon} className="share-icon" />
+      </div>
+    </div>
+  );
 }
 
 export default ProfileSection;
