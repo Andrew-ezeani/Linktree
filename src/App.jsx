@@ -2,6 +2,7 @@ import "./styles/App.css";
 import ProfileSection from "./components/profileSection";
 import LinksSection from "./components/linksSection";
 import SocialSection from "./components/socialSection";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -10,9 +11,10 @@ function App() {
         <div className="App__content">
           <ProfileSection />
           <LinksSection />
-          <SocialSection />
         </div>
+        <SocialSection />
       </main>
+      <Footer />
     </div>
   );
 }
