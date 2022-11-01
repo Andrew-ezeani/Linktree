@@ -22,3 +22,18 @@
   gap: 56px;
   border-radius: 0px;
 }
+
+@media only screen and (max-width: 600px) {
+  .App {
+    padding: 64px 0 20px 0;
+  }
+
+  .main-section {
+    padding: 0px 16px;
+  }
+
+  .App__content {
+    padding: 0px;
+    gap: 32px;
+  }
+}
