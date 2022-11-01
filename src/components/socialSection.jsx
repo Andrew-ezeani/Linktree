@@ -8,7 +8,7 @@ function SocialSection() {
       <a href="#">
         <img src={slackIcon} />
       </a>
-      <a href="#">
+      <a href="https://github.com/Andrew-ezeani/">
         <img src={githubIcon} />
       </a>
     </section>

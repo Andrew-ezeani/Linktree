@@ -5,7 +5,7 @@ import shareIcon from "../assets/Icon.png";
 function ProfileSection() {
   return (
     <div className="profile__section">
-      <img src={profileImg} id="profile__img" />
+      <img src={profileImg} alt="picture of a woman" id="profile__img" />
       <p id="twitter">Alwaysgreen18</p>
       <p id="slack">Andrew Ezeani</p>
       <div className="profile__share">
